@@ -15,16 +15,16 @@ if (window.location.hostname == 'sethclydesdale.github.io') {
     };
     
     document.head.appendChild(gtag);
-  }(window, document, 'G-77G2R7C75J'));
+  }(window, document, 'G-P4QL7D47JS'));
   
   
   // Adsense
   (function (window, document, id) {
-    var adsense = document.createElement('SCRIPT');
-    adsense.async = true;
-    adsense.crossorigin = 'anonymous';
-    adsense.src = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=' + id;
-    document.head.appendChild(adsense);
+ //   var adsense = document.createElement('SCRIPT');
+  //  adsense.async = true;
+  //  adsense.crossorigin = 'anonymous';
+//adsense.src = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=' + id;
+//document.head.appendChild(adsense);
     
     // function for inserting ads into document
     var insertAds = function() {
@@ -38,7 +38,7 @@ if (window.location.hostname == 'sethclydesdale.github.io') {
           ad = '<ins class="adsbygoogle" style="display:inline-block;width:300px;height:250px" data-ad-client="' + id + '" data-ad-slot="{SLOT}"></ins>';
 
           // bottom page ad
-          content.insertAdjacentHTML('beforeend', '<div class="ad-container ad-bottom">' + ad.replace('{SLOT}', '4309807952') + '</div>');
+          content.insertAdjacentHTML('beforeend', '<div class="ad-container ad-bottom">' + ad.replace('{SLOT}', '') + '</div>');
           (adsbygoogle = window.adsbygoogle || []).push({});
         }
         
@@ -48,7 +48,7 @@ if (window.location.hostname == 'sethclydesdale.github.io') {
           ad = '<ins class="adsbygoogle" style="display:inline-block;width:728px;height:90px" data-ad-client="' + id + '" data-ad-slot="{SLOT}"></ins>';
 
           // bottom page ad
-          content.insertAdjacentHTML('beforeend', '<div class="ad-container ad-bottom">' + ad.replace('{SLOT}', '4757999122') + '</div>');
+          content.insertAdjacentHTML('beforeend', '<div class="ad-container ad-bottom">' + ad.replace('{SLOT}', '') + '</div>');
           (adsbygoogle = window.adsbygoogle || []).push({});
         }
       }
@@ -61,5 +61,5 @@ if (window.location.hostname == 'sethclydesdale.github.io') {
       document.addEventListener('DOMContentLoaded', insertAds);
     }
     
-  }(window, document, 'ca-pub-2159011770843378'));
+  }(window, document, ''));
 }
