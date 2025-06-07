@@ -5,7 +5,7 @@ Got a question ? Then consult the magic 8-ball !
 
 
 ## Information
-This was another project developed for fun. Making use of HTML, CSS, and JavaScript. You can find a working demo @ https://sethclydesdale.github.io/magic-8-ball/
+This was another project developed for fun. Making use of HTML, CSS, and JavaScript. You can find a working demo @ https://kaloodinaz.github.io/magic-8-ball/
 
 For the best experience, make sure that your browser is up to date !
 
